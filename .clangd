@@ -1,0 +1,14 @@
+CompileFlags:
+  Remove:
+    - -mlongcalls
+    - -m longcalls
+    - -mtext-section-literals
+    - -m text-section-literals
+  Add:
+    - -mlong-calls
+    - -std=gnu++17
+
+Diagnostics:
+  Suppress:
+    - unknown-argument
+    - template_instantiate_undefined
